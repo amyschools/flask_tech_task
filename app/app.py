@@ -11,6 +11,3 @@ with app.app_context():
 
 app.add_url_rule("/upload", "upload", upload, methods=["POST"])
 app.add_url_rule("/delete", "delete", delete, methods=["POST"])
-
-# Todo - allow users to see the state of a requested file
-# app.add_url_rule("/get/<file_id>", "get", view_file_state, methods=["GET"])

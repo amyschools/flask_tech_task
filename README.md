@@ -2,9 +2,10 @@
 
 ### Overview
 This Flask API provides an interface for file processing. Users can upload and delete
-files via API endpoints. 
+files via API endpoints. File metadata is stored in a SQL database, and the file
+is stored in AWS S3.
 
-![image](app/diagram.jpg)
+![image](diagram.jpg)
 
 
 ### Data Flow
